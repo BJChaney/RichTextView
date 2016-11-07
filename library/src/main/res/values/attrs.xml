@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DeletedImageView">
+        <attr name="deleteWidth" format="dimension"/>
+        <attr name="deleteHeight" format="dimension"/>
+        <attr name="deleteBackgroundColor" format="color"/>
+        <attr name="deleteColor" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="RichTextView">
+        <attr name="richTextSize" format="dimension"/>
+        <attr name="richTextColor" format="color"/>
+        <attr name="richSpaceSize" format="dimension"/>
+    </declare-styleable>
+</resources>
