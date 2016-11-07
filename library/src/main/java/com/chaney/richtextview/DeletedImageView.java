@@ -24,7 +24,7 @@ public class DeletedImageView extends ImageView implements GestureDetector.OnGes
 
     private static final float DEFAULT_D_HEIGHT = 20.0f;
 
-    private static final int DEFAULT_D_BG_COLOR = Color.parseColor("#50000000");
+    private static final int DEFAULT_D_BG_COLOR = Color.parseColor("#60000000");
 
     private static final int DEFAULT_D_COLOR = Color.WHITE;
 

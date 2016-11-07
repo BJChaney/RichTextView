@@ -106,6 +106,7 @@ public class RichTextView extends ScrollView {
                         }
                     }
                 }
+                fullScroll(SCROLL_INDICATOR_TOP);
             }
         });
     }
