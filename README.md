@@ -93,7 +93,7 @@ if you need to load image from network, must be added before ```ImageLoader```  
 	});
 ```
 
-More [download demo](https://github.com/BJChaney/RichTextView/tree/master/demo/build/outputs/apk/demo-debug.apk)
+More [download demo](https://github.com/BJChaney/RichTextView/tree/master/demo/build/outputs/apk)
 ##License
 
 	Copyright 2016 BJChaney
