@@ -2,6 +2,8 @@
 
 An richtext editor For Android. 
 
+![](demo.jpg)
+
 ##Download
 
 Maven:
