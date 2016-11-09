@@ -61,7 +61,7 @@ Add it in your layout xml
 Use this method after selected picture
 
 ```	
-richTextView.addImageViewByLastFocusIndex(bitmap,url);
+	richTextView.addImageViewByLastFocusIndex(bitmap,url);
 ```
 
 There are two ways to save richtext
@@ -69,13 +69,13 @@ There are two ways to save richtext
 * Use this method get text like  ```xxx#IMG#xxx``` , the ```#IMG#``` is a image tag
 	
 ```
-richTextView.getTemplateRichText();
+	richTextView.getTemplateRichText();
 ``` 
 
 * Or use this method get text like ```<p>xxx</p><p><img src="xxx"/></p>```
 	
 ```
-richTextView.getHtmlRichText();
+	richTextView.getHtmlRichText();
 ```
 	
 About to display richtext only support text like ```xxx#IMG#xxx``` 
@@ -86,11 +86,11 @@ About to display richtext only support text like ```xxx#IMG#xxx```
 if you need to load image from network, must be added before ```ImageLoader```  and implement ```loadImage``` method
 
 ```
-        richTextView.setImageLoader(new RichTextView.ImageLoader() {
-            @Override
-            public void loadImage(ImageView imageView, String url) {
-            }
-        });
+	richTextView.setImageLoader(new RichTextView.ImageLoader() {
+		@Override
+       public void loadImage(ImageView imageView, String url) {
+       }
+	});
 ```
 
 More [download demo](https://github.com/BJChaney/RichTextView/tree/master/demo/build/outputs/apk/demo-debug.apk)
