@@ -11,7 +11,7 @@ import com.chaney.richtextview.RichTextView;
 
 import java.util.ArrayList;
 
-public class PreViewActivity extends AppCompatActivity {
+public class PreViewActivity extends AppCompatActivity  {
 
 
     String content;
