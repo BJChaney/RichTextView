@@ -66,16 +66,17 @@ richTextView.addImageViewByLastFocusIndex(bitmap,url);
 
 There are two ways to save richtext
 
-1. Use this method get text like  ```xxx#IMG#xxx``` , the ```#IMG#``` is a image tag
+* Use this method get text like  ```xxx#IMG#xxx``` , the ```#IMG#``` is a image tag
 	
-	```
-	richTextView.getTemplateRichText();
-	``` 
-2. Or use this method get text like ```<p>xxx</p><p><img src="xxx"/></p>```
+```
+richTextView.getTemplateRichText();
+``` 
+
+* Or use this method get text like ```<p>xxx</p><p><img src="xxx"/></p>```
 	
-	```
-	richTextView.getHtmlRichText();
-	```
+```
+richTextView.getHtmlRichText();
+```
 	
 About to display richtext only support text like ```xxx#IMG#xxx``` 
 
@@ -92,7 +93,7 @@ if you need to load image from network, must be added before ```ImageLoader```  
         });
 ```
 
-More [download demo]()
+More [download demo](https://github.com/BJChaney/RichTextView/tree/master/demo/build/outputs/apk/demo-debug.apk)
 ##License
 
 	Copyright 2016 BJChaney
