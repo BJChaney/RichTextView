@@ -2,7 +2,7 @@
 
 An richtext editor For Android. 
 
-![](demo.jpg)
+![](demo.png) 
 
 ##Download
 
