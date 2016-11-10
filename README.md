@@ -85,7 +85,7 @@ About to display richtext only support text like ```xxx#IMG#xxx```
 ```
 	richTextView.loadingRichText(content,urls);
 ```
-if you need to load image from network, must be added before ```ImageLoader```  and implement ```loadImage``` method
+if you need to load image from network, must be added ```ImageLoader```  and implement ```loadImage``` method before
 
 ```
 	richTextView.setImageLoader(new RichTextView.ImageLoader() {
